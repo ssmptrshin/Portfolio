@@ -12,12 +12,7 @@ import static qirkat.Move.*;
 
 /** A Qirkat board.   The squares are labeled by column (a char value between
  *  'a' and 'e') and row (a char value between '1' and '5'.
- *
- *  For some purposes, it is useful to refer to squares using a single
- *  integer, which we call its "linearized index".  This is simply the
- *  number of the square in row-major order (with row 0 being the bottom row)
- *  counting from 0).
- *
+
  *  Moves on this board are denoted by Moves.
  *  @author Sung Min Shin
  */
